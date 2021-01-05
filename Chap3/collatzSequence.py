@@ -6,9 +6,12 @@ def collatz(number):
         print( 3 * number + 1)
         return 3 * number + 1
 
-n = input('Enter any number: ')
-while n !=1:
-    n = collatz(int(n))
+try:
+    n = input('Enter any number: ')
+    while n !=1:
+        n = collatz(int(n))
+except ValueError:
+    print('You must type a number.')
 
 # print('Enter a number')
 # try:
