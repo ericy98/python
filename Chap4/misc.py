@@ -7,3 +7,7 @@
 # import random
 # pets = ['Dog', 'Cat', 'Moose']
 # random.choice(pets)
+
+# mutate string
+# name = 'Zophie a cat'
+# newName = name[0:7] + 'the' + name[8:12]
