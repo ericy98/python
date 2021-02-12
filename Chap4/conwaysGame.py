@@ -15,13 +15,13 @@ for x in range(WIDTH):
     nextCells.append(column) # nextCells is a list of column lists
 
 while True: # Main program loop
-    pring('\n\n\n\n\n') # Seperate each step with newlines.
+    print('\n\n\n\n\n') # Seperate each step with newlines.
     currentCells = copy.deepcopy(nextCells)
 
     # Pring currentCells on the screen:
     for y in range(HEIGHT):
         for x in range(WIDTH):
-            pring(currentCells[x][y], end=') # Print the # or space
+            print(currentCells[x][y], end='') # Print the # or space
         print() # Print newline at end of row
 
     # Calculate next step's cells
